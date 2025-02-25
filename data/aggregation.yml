@@ -5,7 +5,6 @@ content: |
     There's a bit of a balancing act here: we want to share mobility data for research, but we also need to protect people's privacy.
     Concealing the geographic location doesn't help at all. If we completely remove location information, the data becomes basically unusable for urban planning.
     If we combine locations into larger areas, like 500 by 500 meters or even larger, it can make it harder to pinpoint exact locations.
-    Aggregating the locations into rasters, for example, with 100 m by 100 m, 500 m by 500 m sides or even larger sizes can limit the accuracy of the location.
     But at a city-scale, this aggregation has to be significant to make a difference.
     <a target="_blank" href="https://www.nature.com/articles/srep01376">Research by de Montjoye and his colleagues</a> showed that a user stands out from the crowd, if the top four locations (e.g., home and work locations and two frequent locations from the commuting route) are distinguishable.
     So, the spatial aggregation has to be strong enough to hide the differences between the four most frequently visited locations, which will inherently decrease the usefulness of the data.
