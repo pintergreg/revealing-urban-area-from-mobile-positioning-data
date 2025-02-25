@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "gallery_slider" site.Data.activity_distribution }}
+	{{ partial "spotlight" site.Data.reveal_location }}
+	{{ partial "gallery" site.Data.yjmob100k }}
+	{{ partial "spotlight" site.Data.privacy }}
+	{{ partial "gallery" site.Data.location_gallery }}
+	{{ partial "spotlight" site.Data.aggregation }}
+	{{ partial "spotlight" site.Data.noise }}
+	{{ partial "footer" . }}
+
+{{ end }}
