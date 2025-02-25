@@ -1,0 +1,21 @@
+title: "template matching example"
+style: "style1 big lightbox onscroll-fade-in .yjmob100k-gallery"
+content: |
+    Let's see an example to the template matching using mobility data.
+    The activity can be visualized as a heatmap (marker&nbsp;<em>a</em>), in this case the low activity areas are dark blue and the high activity areas are yellow with a gradual transition.
+    To simplify the template matching step, let's use a 'binary' image, with two colors (marker&nbsp;<em>c</em>).
+    A threshold can be found where the low and high activity level is separated (see the histogram, marker&nbsp;<em>b</em>).
+    Then we have a 'binary' template, similar to the activity example before.
+    Unlike the explanation figure below, the two colors should be selected to match the image (the map). For example water could be dark blue and the land yellow.
+    By simplifying the figures colors-wise.
+    Naturally, the template and the map should be generated in the same projection.
+    As the template matching works on images, the result is a relative location (marker&nbsp;<em>d</em>) of the template image in the large image.
+    This relative location can be used to determine the geographical coordinates using the map data and the applied projection.
+
+pictures:
+    - title: The workflow of locating the observation area of a mobile positioning dataset.
+      image: "images/wide_v2m.png"
+      thumb: "images/wide_v2m.png"
+    # - title:
+    #   image: "images/histogram.png"
+    #   thumb: "images/histogram.png"

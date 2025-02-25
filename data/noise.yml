@@ -1,0 +1,35 @@
+title: "adding noise"
+# style: "style1 small lightbox onscroll-fade-in location-gallery"
+style: "style6 orient-left content-align-left image-position-right onscroll-image-fade-in"
+id: "noise"
+content: |
+    Adding noise to the data, on the other hand, could improve the individual privacy, while keeping the higher level mobility trends intact.
+    Some possible ways to do this: (i) randomly displace a number of observed locations of an individual by a given radius, or (ii) randomly include fictional locations into the trajectories or randomly remove locations.
+    The challenge in this scenario is to determine the right degree of randomness for the noise inclusion, but that is out of the scope of this study.
+    <br><br>
+    The figure show what happens when random noise is added to every location point (in the Toronto data) with 1 km deviation.
+    Blue squares denote cells where there were no activity before the noise addition, red cells lost their activity due to the activity relocation, and black cells had activity before and after the noise effect.
+    <br><br>
+    From the perspective of computer vision literature, the noise behaves like a blurring effect, which removes the details, while preserving the rough shape of the city, as long as the "blur" is applied within reasonable scales (without the intent of completely destroying the data).
+    The template matching is not effected significantly by some noise, the city location still could be revealed, but individuals might be less traceable.
+image: "images/noise_as_blur.png"
+pictures:
+    - title: "Toronto"
+      content:
+      image: "images/toronto/location_500_500.png"
+      thumb: "images/toronto/location_500_500.png"
+
+    - title: "London"
+      content:
+      image: "images/london/location_500_500.png"
+      thumb: "images/london/location_500_500.png"
+
+    - title: "Helsinki"
+      content:
+      image: "images/helsinki/location_250_250.png"
+      thumb: "images/helsinki/location_250_250.png"
+
+    - title: "Dallas-Fort Worth"
+      content:
+      image: "images/dallas/location_9.png"
+      thumb: "images/dallas/location_9.png"

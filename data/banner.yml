@@ -1,0 +1,15 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title: "Revealing urban area from mobile positioning data"
+subtitle:
+content: |
+    Is it worth concealing the geographic location of mobility data?
+    Can we say that we have protected users' privacy by doing so?
+    How can the privacy of individuals be ensured in a public mobility data?
+    Read on for answers to these questions or download the academic paper.
+
+button:
+    label: "download paper"
+    style: "icon solid fa-lock-open"
+    link: "https://doi.org/10.1038/s41598-024-82006-5"
+image: "images/nagoya_blue.png"

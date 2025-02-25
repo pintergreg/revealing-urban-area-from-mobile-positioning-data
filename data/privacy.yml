@@ -1,0 +1,18 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-right onscroll-image-fade-in"
+id: "privacy"
+title: "privacy considerations"
+content: |
+    The idea behind concealing the geographic location of mobility data could be to protect the users' privacy in the data.
+    Exposing location data always comes with a certain level of privacy risks.
+    Anonimization is one thing, removing unique identifiers (e.g., phone numbers, email addresses) from the data is an obvious step.
+    However, the trajectories, originating the everyday mobility, could also identify people.
+    Especially with additional information of a famous person, like where they were in a given time.
+    There is an example of that regarding the president of the United States in a <a target="_blank" href="https://www.nytimes.com/interactive/2019/12/20/opinion/location-data-national-security.html"> New York Times article</a> by Stuart A. Thompson and Charlie Warzel.
+
+    <br><br>
+    photo by Paweł Zdziarski, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>, from <a target="blank" href="https://commons.wikimedia.org/wiki/File:Surveillance_video_cameras,_Gdynia.jpeg">Wikimedia</a>
+
+# And those trajectories are the very essence of a mobility data.
+# Users can be distinguished with only four points (e.g., home and work locations and two frequent location from the commuting route).
+image: "images/surveillance_video_cameras.jpg"
