@@ -1,13 +1,12 @@
 title: "template matching results"
 style: "style1 small lightbox onscroll-fade-in location-gallery"
 content: |
-    It might seem a good idea to conceal the geographic location to protect the users in the data.
-    However, if concealing only means transforming the coordinates to an obscure plane, than that won't solve the underlying issue.
-    Since the geographic distribution of human mobility is characterizes well the urban landscape, it will be possible to locate the observation area on the map.
-    <br>The only challenge could be to deduce the applied transformation.
+    So, if concealing the location coordinates only means transforming them to an unknown plane, that won't solve the underlying issue.
+    This is because the geographic distribution of human mobility is characterizes so well the urban landscape.
+    It'll be possible to locate the observation area on the map, but the only challenge could be figuring out the applied transformation.
     <br><br>
-    The following figures show where the city was positioned by the template matching algorithm using mobility data as a template in the cases of Toronto, London, Helsinki, and Dallas-Fort Worth.
-# Note that the complete removal of the location information solves the problem, but
+    The next few figures show where the city was positioned by the template matching algorithm using mobility data as a template in the cases of Toronto, London, Helsinki, and Dallas-Fort Worth.
+# Complete removal of the location information works, but that makes the data unusable for urban planning, for example.
 pictures:
     - title: "Toronto"
       content:

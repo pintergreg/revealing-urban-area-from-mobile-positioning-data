@@ -3,16 +3,15 @@ style: "style1 orient-left content-align-left image-position-right onscroll-imag
 id: "privacy"
 title: "privacy considerations"
 content: |
-    The idea behind concealing the geographic location of mobility data could be to protect the users' privacy in the data.
-    Exposing location data always comes with a certain level of privacy risks.
-    Anonimization is one thing, removing unique identifiers (e.g., phone numbers, email addresses) from the data is an obvious step.
-    However, the trajectories, originating the everyday mobility, could also identify people.
-    Especially with additional information of a famous person, like where they were in a given time.
-    There is an example of that regarding the president of the United States in a <a target="_blank" href="https://www.nytimes.com/interactive/2019/12/20/opinion/location-data-national-security.html"> New York Times article</a> by Stuart A. Thompson and Charlie Warzel.
+    You might think that hiding the geographic location of mobility data is a good way to protect the users' privacy, when mobility data is published.
+    But, publishing location data always comes with some privacy risks.
+    This is especially true when additional information is available for an individual, such as their location at a specific time, which could potentially lead to their identification.
+    Take, for example, the article in a <a target="_blank" href="https://www.nytimes.com/interactive/2019/12/20/opinion/location-data-national-security.html"> New York Times article</a> by Stuart A. Thompson and Charlie Warzel about the president of the United States.
 
     <br><br>
     photo by Paweł Zdziarski, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>, from <a target="blank" href="https://commons.wikimedia.org/wiki/File:Surveillance_video_cameras,_Gdynia.jpeg">Wikimedia</a>
 
-# And those trajectories are the very essence of a mobility data.
-# Users can be distinguished with only four points (e.g., home and work locations and two frequent location from the commuting route).
+# But the trajectories that show where people are going every day could also identify them, especially with extra info, like where famous people were at a certain time.
+# Anonymization is one thing, getting rid of unique identifiers (like phone numbers and email addresses) from the data is an obvious step.
+# This is more likely to happen with well-known people who have a lot of attention on their whereabouts.
 image: "images/surveillance_video_cameras.jpg"

@@ -1,12 +1,10 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-right onscroll-image-fade-in"
 id: "first"
-title: "revealing the location"
+title: "finding the city location"
 content: |
-    The activity distribution can characterize the city landscape well as the previous examples of Toronto, London, Helsinki and Dallas-Fort Worth show.
-    There is a technique in digital image processing, called template matching, which can be used to find the location of the city silhouette, generated from mobile positioning data, on a map.
-    The template is a small image (the silhouette) we want to find in a larger image (the map).
+    As we've seen in the previous examples, the human activity is closely linked to urban areas.
+    There's a cool technique in digital image processing called template matching. It helps us find the city silhouette, which is like a picture of the city made from mobile positioning data, on a map.
     <br><br>
     The illustration is by Laserlicht and Benjamin Watson, <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a>, taken from <a target="_blank" href="https://en.wikipedia.org/wiki/File:Template_Matching.png">Wikipedia</a>.
-# To find the location of the city silhouette &mdash; generated from mobile positioning data &mdash; on a map, called template matching can be used.
 image: "images/Template_Matching.png"

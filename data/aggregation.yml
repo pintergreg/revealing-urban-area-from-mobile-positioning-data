@@ -1,13 +1,13 @@
 title: "how can the privacy of individuals be improved?"
-# style: "style1 small lightbox onscroll-fade-in location-gallery"
-# style: "style6 orient-right content-align-left image-position-right onscroll-image-fade-in"
 style: "style4 orient-left content-align-left image-position-right onscroll-image-fade-in"
 id: "aggregation"
 content: |
-    There is a trade-off between publishing mobility data for research purposes while protecting the privacy of the individuals.
-    Concealing the geographic location does not help, completely removing the location information makes data basically unusable for urban planning, for example.
-    Aggregating the locations into rasters, for example, with 100 m × 100 m, 500 m × 500 m sides or even larger sizes can limit the accuracy of the location.
-    However, at a city-scale this has to be significant aggregation to have effect, because as a <a target="_blank" href="https://www.nature.com/articles/srep01376">research by de Montjoye et al.</a> showed that a user stands out from the crowd, if the top four locations (e.g., home and work locations and two frequent location from the commuting route) are distinguishable.
+    There's a bit of a balancing act here: we want to share mobility data for research, but we also need to protect people's privacy.
+    Concealing the geographic location doesn't help at all. If we completely remove location information, the data becomes basically unusable for urban planning.
+    If we combine locations into larger areas, like 500 by 500 meters or even larger, it can make it harder to pinpoint exact locations.
+    Aggregating the locations into rasters, for example, with 100 m by 100 m, 500 m by 500 m sides or even larger sizes can limit the accuracy of the location.
+    But at a city-scale, this aggregation has to be significant to make a difference.
+    <a target="_blank" href="https://www.nature.com/articles/srep01376">Research by de Montjoye and his colleagues</a> showed that a user stands out from the crowd, if the top four locations (e.g., home and work locations and two frequent locations from the commuting route) are distinguishable.
     So, the spatial aggregation has to be strong enough to hide the differences between the four most frequently visited locations, which will inherently decrease the usefulness of the data.
     <br><br>
     background figure: Martin Grandjean, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, taken from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Airports_Network_Map.png">Wikimedia</a>.
