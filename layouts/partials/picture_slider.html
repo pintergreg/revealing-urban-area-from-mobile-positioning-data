@@ -1,0 +1,12 @@
+<article class="picture-slider">
+    <h3>{{ .title }}</h3>
+    <div id="{{ .id }}" class="beer-slider" data-beer-label="{{ .before_label }}">
+        <img src="{{ .before }}" alt="{{ .before_label }}">
+        <div class="beer-reveal" data-beer-label="{{ .after_label }}">
+            <img src="{{ .after }}" alt="{{ .after_label }}">
+        </div>
+    </div>
+    <script>
+        var slider = new BeerSlider( document.getElementById( "{{ .id }}" ) );
+    </script>
+</article>
