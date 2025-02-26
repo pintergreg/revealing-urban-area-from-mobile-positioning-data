@@ -2,12 +2,14 @@ name: CI
 
 on:
     push:
-        branches: ["main"]
-    workflow_dispatch:
+        branches:
+            - main
 
 jobs:
     build:
         runs-on: ubuntu-latest
+        permissions:
+            contents: write
 
         steps:
             - uses: actions/checkout@v4
