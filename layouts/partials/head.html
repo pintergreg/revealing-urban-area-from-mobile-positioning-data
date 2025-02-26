@@ -23,8 +23,8 @@
 	{{ $noscript := resources.Get "sass/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "css/noscript.css" "enableSourceMap" false) }}
 	<noscript><link rel="stylesheet" href="{{ ($noscript | minify).RelPermalink }}" /></noscript>
 	{{end}}
-	<link rel="stylesheet" href="./css/custom.css">
-	<link rel="stylesheet" href="./css/BeerSlider.css">
+	<link rel="stylesheet" href="css/BeerSlider.css">
+	<link rel="stylesheet" href="css/custom.css">
 	<script src='js/BeerSlider.js'></script>
 
 
