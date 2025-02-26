@@ -1,0 +1,14 @@
+.sad-gallery article {
+    width: 16.5% !important;
+}
+article.picture-slider, article.picture-slider h3 {
+    color: black !important;
+}
+.yjmob100k-gallery article  {
+/*     width: 100%; */
+}
+.yjmob100k-gallery article img {
+    height: 200px !important;
+  object-fit: scale-down;
+  background: white;
+}
