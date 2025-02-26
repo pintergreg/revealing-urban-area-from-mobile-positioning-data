@@ -4,6 +4,8 @@ defaultContentLanguage = "en"
 title = "Revealing urban area from mobile positioning data"
 theme = "hugo-story"
 
+relativeURLs = "true"
+
 [services]
   [services.googleAnalytics]
     id = "G-LKEDBX9YC6"
