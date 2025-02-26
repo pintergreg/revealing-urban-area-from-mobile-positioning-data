@@ -8,3 +8,12 @@ relativeURLs = "true"
 # Local
 baseURL = "/"
 publishDir = "public"
+
+[services]
+  [services.googleAnalytics]
+    id = "G-LKEDBX9YC6"
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
