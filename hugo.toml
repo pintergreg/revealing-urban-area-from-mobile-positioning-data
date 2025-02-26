@@ -1,13 +1,8 @@
-languageCode = 'en-us'
-title = 'Revealing urban area from mobile positioning data'
-theme = "hugo-story"
-
-relativeURLs = "true"
-#canonifyURLs = "true"
-
-# Local
 baseURL = "/"
-publishDir = "public"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+title = "Revealing urban area from mobile positioning data"
+theme = "hugo-story"
 
 [services]
   [services.googleAnalytics]
