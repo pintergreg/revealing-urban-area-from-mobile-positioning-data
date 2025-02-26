@@ -19,3 +19,9 @@ article.picture-slider, article.picture-slider h3 {
 .beer-range:focus~.beer-handle {
   background: #2d2d2dbf;
 }
+.beer-reveal[data-beer-label]:after,
+.beer-slider[data-beer-label]:after {
+  padding: 0.35rem;
+  background: #2d2d2dAf;
+  color: white;
+}
