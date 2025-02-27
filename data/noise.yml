@@ -4,7 +4,7 @@ id: "noise"
 content: |
     Adding some noise to the data could be a great way to improve the individual privacy, while keeping the higher-level mobility trends intact.
     Here are some possible ways to do this: (i) randomly displace a number of observed locations of an individual by a given radius, or (ii) randomly include fictional locations into the trajectories or randomly remove locations.
-    The tricky part is figuring out the right level of randomness for the noise, but that's a topic for another day
+    The tricky part is figuring out the right level of randomness for the noise, but that's a topic for another day.
     <br><br>
     The figures show what happens when random noise is added to every location point (in the Toronto data) with 1 km deviation.
     Blue squares represent cells where there were no activity before the noise addition, red cells lost their activity due to the activity relocation, and black cells had activity before and after the noise effect.
