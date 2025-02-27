@@ -41,9 +41,6 @@
 }
 .beer-range {
     appearance: none;
-    -moz-appearance: none;
-    -ms-touch-action: auto;
-    -webkit-appearance: slider-horizontal !important;
     bottom: 0;
     cursor: pointer;
     height: 100%;
@@ -56,17 +53,9 @@
     width: calc(100% + 2px);
     z-index: 2;
 }
-.beer-range::-webkit-slider-thumb, .beer-range::slider-thumb {
+.beer-range::slider-thumb {
     appearance: none;
-    -webkit-appearance: none;
     height: 300vh;
-}
-.beer-range::-moz-range-thumb {
-    -webkit-appearance: none;
-    height: 300vh;
-}
-.beer-range::-ms-tooltip {
-    display: none;
 }
 .beer-handle {
     background: hsla(0, 0%, 100%, 0.5);
