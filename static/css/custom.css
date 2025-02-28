@@ -25,3 +25,7 @@ article.picture-slider, article.picture-slider h3 {
   background: #2d2d2dAf;
   color: white;
 }
+.inline-gallery {
+  display: inline-block !important;
+  baseline-source: first;
+}
