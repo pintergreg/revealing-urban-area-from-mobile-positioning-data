@@ -10,7 +10,7 @@ relativeURLs = "true"
   [params.seo]
     title = "Revealing urban area from mobile positioning data"
     author = "Gergő Pintér"
-    description = ""
+    description = "Is it worth concealing the geographic location of mobility data? Can we say that we have protected users' privacy by doing so? How can the privacy of individuals be ensured in a public mobility data?"
     keywords = ["mobile positioning data", "urban mobility", "privacy", "reverse-engineering"]
 
 
