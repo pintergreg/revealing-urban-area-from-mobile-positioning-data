@@ -6,6 +6,14 @@ theme = "hugo-story"
 
 relativeURLs = "true"
 
+[params]
+  [params.seo]
+    title = "Revealing urban area from mobile positioning data"
+    author = "Gergő Pintér"
+    description = ""
+    keywords = ["mobile positioning data", "urban mobility", "privacy", "reverse-engineering"]
+
+
 [services]
   [services.googleAnalytics]
     id = "G-LKEDBX9YC6"
