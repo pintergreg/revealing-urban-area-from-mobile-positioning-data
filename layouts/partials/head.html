@@ -2,9 +2,7 @@
 	<title>{{ .Site.Title }}</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	{{- with .Site.Params.seo }}
 	{{ partial "seo" . }}
-	{{- end }}
 
 	{{- if .Site.Params.favicon }}
 	{{- partial "favicon" }}

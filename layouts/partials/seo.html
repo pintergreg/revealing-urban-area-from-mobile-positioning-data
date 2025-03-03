@@ -1,13 +1,21 @@
-	{{- with .description }}
+	{{- with .Site.Params.seo.description }}
     <meta name="description" content="{{ . }}">
     {{- end }}
-	{{- with .author }}
+	{{- with .Site.Params.seo.author }}
 	<meta name="author" content="{{ . }}">
     {{- end }}
-	{{- with .keywords }}
+	{{- with .Site.Params.seo.keywords }}
 	<meta name="keywords" content="{{collections.Delimit . ", " }}">
     {{- end }}
-	<meta name="og:title" property="og:title" content="{{ .title }}">
-	{{- with .description }}
+	<meta name="og:title" property="og:title" content="{{ .Site.Title }}">
+	{{- with .Site.Params.seo.description }}
 	<meta name="og:description" property="og:description" content="{{ . }}">
+    {{- end }}
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+	{{- with (index .Site.Data.authors 0) }}
+    <meta property="article:author" content="https://orcid.org/{{.orcid}}" />
+    {{- end }}
+    {{- with .Site.Params.seo.keywords }}
+	<meta property="article:tag" content="{{collections.Delimit . ", " }}">
     {{- end }}
