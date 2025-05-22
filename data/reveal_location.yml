@@ -3,6 +3,7 @@ style: "style1 orient-right content-align-left image-position-right onscroll-ima
 id: "first"
 title: "finding the city location"
 content: |
+    Let's say we know the where people used their mobile phones in a city, but we don't know the city.
     As we've seen in the previous examples, the human activity is closely linked to urban areas.
     There's a cool technique in digital image processing called template matching. It helps us find the city silhouette, which is like a picture of the city made from mobile positioning data, on a map.
     <br><br>

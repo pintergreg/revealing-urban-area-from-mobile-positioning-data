@@ -2,9 +2,12 @@ title: "activity distribution"
 style: "style1 medium onscroll-fade-in activity-distribution-gallery"
 content: |
     Have you ever thought about how the way people are spread out in a city can tell us a lot about that city's landscape?
-    If enough location data is available, the geographic distribution of the appearances will describe the urban area quite well.
+    If enough location data is available, the geographic distribution of the appearances (activities) will describe the urban area quite well.
     Let's take a look at some examples of cities like Toronto, London, Helsinki, and Dallas-Fort Worth.
     Here, we can see mobile positioning data in pink (MPD) and landuse data from the OpenStreetMap in green (OSM).
+    The MPD is shown as 250-by-250-meter cells. If someone used their phone in a cell, it'll show up as pink.
+    The map data (OSM) shows among others residential and industrial areas, but not parks, lakes, and so on.
+    People like to spend some time in parks, so it's no surprise that the two are a bit different, but the overall shape is pretty similar.
 pictures:
     - title: "Toronto"
       before: "images/toronto/activity.png"
