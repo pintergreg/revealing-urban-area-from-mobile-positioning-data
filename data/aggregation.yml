@@ -9,5 +9,5 @@ content: |
     <a target="_blank" href="https://www.nature.com/articles/srep01376">Research by de Montjoye and his colleagues</a> showed that a user stands out from the crowd, if the top four locations (e.g., home and work locations and two frequent locations from the commuting route) are distinguishable.
     So, the spatial aggregation has to be strong enough to hide the differences between the four most frequently visited locations, which will inherently decrease the usefulness of the data.
     <br><br>
-    background figure: Martin Grandjean, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, taken from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Airports_Network_Map.png">Wikimedia</a>.
-image: "images/Airports_Network_Map.png"
+    background figure: modified version of Jonah Aragon's, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, taken from <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Privacy_Guides_logo.svg">Wikimedia</a>.
+image: "images/Privacy_Guides_logo_wide.svg"
